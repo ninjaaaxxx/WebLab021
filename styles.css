@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.special-background{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-image: url('home.jpg');
+}
+
+.container {
+    width: 1900%;
+    max-width: 1850px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 35px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    text-align: left;
+    background-color: #e6e1e1b2;
+    border-radius: 2%;
+}
+
+h2 {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    text-align: left;
+}
+
+button {
+    width: 5%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0f1111;
+    height: 60px;
+    padding: 0 10px;
+}
+
+.logo a {
+    color: #f08804;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 200px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 50%;
+    height: 2%;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.search button {
+    width: 20%;
+    height: 2%;
+    background-color: #f08804;
+    color: white;
+    padding: 5px;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
